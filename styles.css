@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+
+#circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    display: none;
+    cursor: pointer;
+}
+
+#scoreboard {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
